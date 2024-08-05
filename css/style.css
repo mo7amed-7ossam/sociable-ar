@@ -75,7 +75,7 @@ main .bg {
 
 main svg {
     position: absolute;
-    max-width: 150%;
+    max-width: 100%;
     bottom: 0%;
     left: 0%;
     z-index: 2;
@@ -160,7 +160,7 @@ main .banner-body p span {
     text-transform: capitalize;
     line-height: 16px;
     color: #d38827;
-    color: #fff;
+    color: #fff !important;
     letter-spacing: 1px;
     opacity: .7;
     padding-top: 5px;
@@ -648,6 +648,10 @@ footer .links a:hover {
 
     .services .container .serv .info {
         width: 65%;
+    }
+
+    main svg {
+        max-width: 200%;
     }
 }
 
