@@ -10,6 +10,7 @@
     border: none;
     outline: none;
     box-shadow: none;
+    scroll-behavior: smooth;
 }
 
 body {
